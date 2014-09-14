@@ -64,7 +64,7 @@ public class company_activity extends Activity {
 			@Override
 			public void onErrorResponse(VolleyError arg0) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Could not connect to database", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), "No Internet Connection", Toast.LENGTH_SHORT).show();
 				
 			}
 		});
