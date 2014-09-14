@@ -14,7 +14,10 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -23,16 +26,33 @@ public class events_activity extends Activity {
 	ListView list;
 	String url = "http://14.139.56.19/gludroid/index.php";
 	ArrayList<String> events = new ArrayList<String>();
+	ProgressDialog pDialog;
+	
+	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.list_view);
 		
 		list = (ListView) findViewById(R.id.list);
 		final ArrayAdapter<String> evn = new ArrayAdapter<String>(getApplicationContext(), R.layout.event_item_layout, R.id.event_item ,events);
 		list.setAdapter(evn);
+		
+		pDialog = new ProgressDialog(events_activity.this);
+		pDialog.setMessage("Loading...");
+		new Handler().postDelayed(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				pDialog.show();
+				
+			}
+		}, 1);
+			
 		
 		RequestQueue rq = Volley.newRequestQueue(getApplicationContext());
 		JsonObjectRequest jsonrequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
@@ -54,11 +74,15 @@ public class events_activity extends Activity {
 								events.add(quest.getJSONObject(i).getString("name"));
 						//	}
 							
-							
-						}
+							hidepDialog();
+						} 
+						
+					} else{
+						hidepDialog();
 					}
 				} catch(JSONException e){
 					Toast.makeText(getApplicationContext(), "ERROR!!", Toast.LENGTH_SHORT).show();
+					hidepDialog();
 				}
 				evn.notifyDataSetChanged();
 				
@@ -68,11 +92,22 @@ public class events_activity extends Activity {
 			@Override
 			public void onErrorResponse(VolleyError arg0) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Error is comming", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), "No Internet Connection", Toast.LENGTH_SHORT).show();
+				hidepDialog();
 				
 			}
 		});
 		
 		rq.add(jsonrequest);
+		
+		
+	}
+	private void hidepDialog(){
+		if(pDialog!=null){
+			pDialog.dismiss();
+			pDialog=null;
+		}
 	}
 }
+
+
