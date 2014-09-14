@@ -48,11 +48,11 @@ public final class R {
         public static final int fz=0x7f020018;
         public static final int gimp=0x7f020019;
         public static final int giriraj=0x7f02001a;
-        public static final int glug=0x7f02001b;
-        public static final int gnome=0x7f02001c;
-        public static final int himanshu=0x7f02001d;
-        public static final int himanshus=0x7f02001e;
-        public static final int ic_launcher=0x7f02001f;
+        public static final int gludroid=0x7f02001b;
+        public static final int glug=0x7f02001c;
+        public static final int gnome=0x7f02001d;
+        public static final int himanshu=0x7f02001e;
+        public static final int himanshus=0x7f02001f;
         public static final int ishita=0x7f020020;
         public static final int kalilinux=0x7f020021;
         public static final int kubuntu=0x7f020022;
