@@ -13,11 +13,11 @@ public class os_activity extends Activity{
 	ListView list;
 
 	String[] values={
-			"Ubuntu", "Fedora", "Linux Mint", "Kali Linux", "Kubuntu", "Gnome", "Backtrack", "Deepin", "Debian", "Slackware"
+			"Ubuntu", "Fedora", "Linux Mint", "Kali Linux", "Kubuntu", "Gnome", "Backtrack", "Deepin", "Debian", "Slackware", "CentOS"
 	};
 	
 	int[] imageid={
-		R.drawable.ubuntu, R.drawable.fedora, R.drawable.linuxmint, R.drawable.kalilinux, R.drawable.kubuntu, R.drawable.gnome, R.drawable.backtrack, R.drawable.deepin, R.drawable.debian, R.drawable.slackware
+		R.drawable.ubuntu, R.drawable.fedora, R.drawable.linuxmint, R.drawable.kalilinux, R.drawable.kubuntu, R.drawable.gnome, R.drawable.backtrack, R.drawable.deepin, R.drawable.debian, R.drawable.slackware, R.drawable.cent
 	};
 	
 

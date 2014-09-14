@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -34,6 +35,7 @@
         <activity android:name="com.example.glug.develop_activity" />
         <activity android:name="com.example.glug.member_activity" />
         <activity android:name=".glug_activity" />
+        <activity android:name=".events_activity" />
         
     </application>
 
