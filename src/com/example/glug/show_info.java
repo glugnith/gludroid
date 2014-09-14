@@ -111,12 +111,19 @@ public class show_info extends Activity {
 			text2.setText("Just like sound editors, industry standard image editing software is prohibitively expensive for a lot of people, but" +
 					" GIMP provides a free alternative. It performs every major function you could desire, except for, vitally, CMYK separation" +
 					" functionality necessary for prepress work.");
-			String linking = "<a href='http://www.linuxmint.com'>Gimp Official Site</a>";
+			String linking = "<a href='http://www.gimp.org'>Gimp Official Site</a>";
+			text3.setText(Html.fromHtml(linking));
+		}else if(head.compareTo("CentOS")==0){
+			text2.setText("CentOS (abbreviated from Community Enterprise Operating System) is a Linux distribution that attempts to provide a free," +
+					"enterprise-class, community-supported computing platform which aims to be 100% binary compatible with its upstream source, Red" +
+					"Hat Enterprise Linux (RHEL). In January 2014, it was announced that CentOS was officially joining forces with Red Hat while staying" +
+					"independent from RHEL, under a new CentOS Governing Board.");
+			String linking = "<a href='http://www.centos.org'>CentOS Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Docky")==0){
 			text2.setText("Docky is an advanced shortcut bar that sits at the edges of your screen. It provides easy access to some of the files," +
 					" folders and applications on your computer, displays which applications are currently running, holds windows in their minimized state and more.");
-			String linking = "<a href='http://www.linuxmint.com'>Docky Official Site</a>";
+			String linking = "<a href='http://www.go-docky.com'>Docky Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Vi/Vim")==0){
 			text2.setText("Vim is a text editor written by Bram Moolenaar and first released publicly in 1991. Based on the ideas of the vi editor" +
@@ -124,14 +131,14 @@ public class show_info extends Activity {
 					" graphical user interface. Vim is free and open source software and is released under a license that includes some charityware" +
 					" clauses, encouraging users who enjoy the software to consider donating to children in Uganda.The license is compatible with the" +
 					" GNU General Public License.");
-			String linking = "<a href='http://www.linuxmint.com'>Vim Official Site</a>";
+			String linking = "<a href='http:// www.vim.org/'>Vim Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Wine")==0){
 			text2.setText("Wine is a compatibility layer capable of running Windows applications on several POSIX-compliant operating systems, such as" +
 					" Linux, Mac OSX, & BSD. Instead of simulating internal Windows logic like a virtual machine or emulator, Wine translates Windows" +
 					" API calls into POSIX calls on-the-fly, eliminating the performance and memory penalties of other methods and allowing you to cleanly" +
 					" integrate Windows applications into your desktop.");
-			String linking = "<a href='http://www.linuxmint.com'>Wine Official Site</a>";
+			String linking = "<a href='http://www.winehq.org'>Wine Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Deepin")==0){
 				text2.setText("Deepin is an Ubuntu-based distribution that aims to provide an elegant," +
@@ -145,7 +152,7 @@ public class show_info extends Activity {
 			text2.setText("VLC media player had been downloaded 300 million times. Unlike some paid-for alternatives, VLC supports practically" +
 					" every audio/video codec and file format. The most recent VLC release also offers live recording of streaming video," +
 					" frame-by-frame advancement and superb speed controls.");
-			String linking = "<a href='http://www.linuxmint.com'>VLC Official Site</a>";
+			String linking = "<a href='http://www.videolan.org/vlc/index.html'>VLC Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Chrome")==0){
 			text2.setText("Google Chrome is a freeware web browser developed by Google. It used the WebKit layout engine until version 27 and," +
@@ -153,42 +160,42 @@ public class show_info extends Activity {
 					" beta version for Microsoft Windows on September 2, 2008, and as a stable public release on December 11, 2008. As of July" +
 					" 2014, StatCounter estimates that Google Chrome has a 45% worldwide usage share of web browsers so this estimate indicates" +
 					" it is the most widely used web browser in the world.");
-			String linking = "<a href='http://www.linuxmint.com'>Chrome Official Site</a>";
+			String linking = "<a href=' https://www.google.co.in/chrome/'>Chrome Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		} else if(head.compareTo("Mozilla Firefox")==0){
 			text2.setText("Firefox currently accounts for 24.43% of the recorded usage share of web browsers, but this figure is on the rise." +
 					" Already the browser of choice for most web professionals, Firefox’s popularity is growing thanks to its vast selection of " +
 					"third party add-ons, which let users tailor their browsing environment down to the finest detail.");
-			String linking = "<a href='http://www.linuxmint.com'>Mozilla Firefox Official Site</a>";
+			String linking = "<a href='http:// https://www.mozilla.org/firefox'>Mozilla Firefox Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("ThunderBird")==0){
 			text2.setText("With its speedy searches, built-in RSS feeds, strong security and superb add-ons, Thunderbird has to be the best, free " +
 					"email application available. If you’re prepared to spend some time tailoring your email environment with add-ons, you’ll " +
 					"absolutely love it, but it’s probably not ideal for complete novices.");
-			String linking = "<a href='http://www.linuxmint.com'>ThunderBird Official Site</a>";
+			String linking = "<a href='https://www.mozilla.org/thunderbird/'>ThunderBird Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("FileZilla")==0){
 			text2.setText("FileZilla is a hugely successful, cross-platform FTP client. It’s also available as a server, for Windows only. Created " +
 					"in January 2001 by Tim Klosse as a class project, FileZilla has gone on to become the 5th most popular download of all time " +
 					"from SourceForge.net.");
-			String linking = "<a href='http://www.linuxmint.com'>FileZilla Official Site</a>";
+			String linking = "<a href='https://filezilla-project.org/'>FileZilla Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Audacity")==0){
 			text2.setText("Audacity is a free, cross-platform sound editor. Users can record and edit live audio; cut, copy, splice and mix sounds;" +
 					"and convert ageing tapes and records into digital format.");
-			String linking = "<a href='http://www.linuxmint.com'>Audacity Official Site</a>";
+			String linking = "<a href='http://audacity.sourceforge.net/'>Audacity Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Open Office")==0){
 			text2.setText("With the ability to create text documents, spreadsheets, presentations and databases, OpenOffice is an accomplished rival to" +
 					"Microsoft Office, which clearly influenced OpenOffice’s design. Microsoft Office users will feel completely at home and find that" +
 					"  OpenOffice performs just as well, if not better.");
-			String linking = "<a href='http://www.linuxmint.com'>Open Office Official Site</a>";
+			String linking = "<a href=' https://www.openoffice.org/'>Open Office Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		}else if(head.compareTo("Blender")==0){
 			text2.setText("Blender is a 3D content creation suite which can be used for everything from modeling to skinning, particle simulation," +
 					" animating and texturing. Unlike some other free apps in this list, Blender has not been designed to “imitate” other 3D graphics " +
 					"software, which means it takes a bit of getting used ");
-			String linking = "<a href='http://www.linuxmint.com'>Blender Official Site</a>";
+			String linking = "<a href='http://www.blender.org'>Blender Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
 		} else{
 			text2.setText("Connection to Server failed.");

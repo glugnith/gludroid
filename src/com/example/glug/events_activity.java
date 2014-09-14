@@ -19,9 +19,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class company_activity extends Activity {
+public class events_activity extends Activity {
 	ListView list;
-	String url = "http://14.139.56.19/gludroid/show_company.php";
+	String url = "http://14.139.56.19/gludroid/index.php";
 	ArrayList<String> events = new ArrayList<String>();
 	
 	@Override
@@ -48,9 +48,13 @@ public class company_activity extends Activity {
 					/*		String name = quest.getJSONObject(i).getString("name");
 							String time = quest.getJSONObject(i).getString("e_name");
 							String ans = name + " - " + time;
-							events.add(ans); */	
-							events.add(quest.getJSONObject(i).getString("name"));
-									
+							events.add(ans); */
+						//	int pid = response.getInt("pid");
+						//	if(pid<200){
+								events.add(quest.getJSONObject(i).getString("name"));
+						//	}
+							
+							
 						}
 					}
 				} catch(JSONException e){
@@ -64,7 +68,7 @@ public class company_activity extends Activity {
 			@Override
 			public void onErrorResponse(VolleyError arg0) {
 				// TODO Auto-generated method stub
-				Toast.makeText(getApplicationContext(), "Could not connect to database", Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), "Error is comming", Toast.LENGTH_SHORT).show();
 				
 			}
 		});

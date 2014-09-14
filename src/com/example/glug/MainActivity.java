@@ -95,6 +95,9 @@ public class MainActivity extends Activity {
 				sendIntent.putExtra(Intent.EXTRA_TEXT, "If you have any suggestions, please do mail us. :-)");
 				startActivity(sendIntent);
 				return true;
+			case R.id.action_about:
+				Intent inten = new Intent(getApplicationContext(), about_sfd.class);
+				startActivity(inten);
 			default: 
 				return super.onMenuItemSelected(featureId, item);
 		}
