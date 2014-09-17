@@ -13,7 +13,7 @@ public class foss_activity extends Activity {
 	ListView list;
 	
 	String[] names={
-		"VLC", "Gimp", "Docky", "Chrome", "Wine", "Vi/Vim", "Mozilla Firefox", "Audacity", "Blender", "FileZilla", "Open Office", "ThunderBird"
+		"VLC", "Gimp", "Docky", "Chromium", "Wine", "Vi/Vim", "Mozilla Firefox", "Audacity", "Blender", "FileZilla", "Open Office", "ThunderBird"
 	};
 	
 	int[] imageid={

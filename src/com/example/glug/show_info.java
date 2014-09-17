@@ -197,6 +197,38 @@ public class show_info extends Activity {
 					"software, which means it takes a bit of getting used ");
 			String linking = "<a href='http://www.blender.org'>Blender Official Site</a>";
 			text3.setText(Html.fromHtml(linking));
+		}else if(head.compareTo("Damn Small Linux")==0){
+			text2.setText("Damn Small is small enough and smart enough to do the following things:" +
+						"Boot from a business card CD as a live linux distribution (LiveCD)" +
+						"Boot from a USB pen drive" +
+						"Boot from within a host operating system (that's right, it can run *inside* Windows)" +
+						"Run very nicely from an IDE Compact Flash drive via a method we call frugal install" + 
+						"Transform into a Debian OS with a traditional hard drive install" +
+						"Run light enough to power a 486DX with 16MB of Ram" +
+						"Run fully in RAM with as little as 128MB (you will be amazed at how fast your computer can be!)" +
+						"Modularly grow -- DSL is highly extendable without the need to customize");
+			String linking="<a href='http://www.damnsmalllinux.org/'>DSL Official Site</a>";
+			text3.setText(Html.fromHtml(linking));
+		}else if(head.compareTo("Puppy Linux")==0){
+			text2.setText("Easily install to USB, Zip or hard drive media." +
+							"Booting from CD (or DVD), the CD drive is then free for other purposes." +
+							"Booting from CD (or DVD), save everything back to the CD." +
+							"Booting from USB Flash drive, minimise writes to extend life indefinitely." +
+							"Extremely friendly for Linux newbies." +
+							"Boot up and run extraordinarily fast." +
+							"Have all the applications needed for daily use." +
+							"Will just work, no hassles." +
+							"Will breathe new life into old PCs" +
+							"Load and run totally in RAM for diskless thin stations");
+			String linking="<a href='http://www.puppylinux.org/'>Puppy Linux Official Site</a>";
+			text3.setText(Html.fromHtml(linking));
+		}else if(head.compareTo("Elementary OS")==0){
+			text2.setText("elementary OS is a Linux distribution based on Ubuntu. It makes use of a desktop" +
+							"with its own shell named Pantheon,[2] and is deeply integrated with other elementary" +
+							"OS applications like Plank (a dock), Midori (the default web browser) and Scratch (a simple text editor)." +
+							"This distribution uses Gala as its window manager,[3] which is based on Mutter.[2]");
+			String linking="<a href=http://www.elementaryos.org/''>Elementary Official Site</a>";
+			text3.setText(Html.fromHtml(linking));
 		} else{
 			text2.setText("Connection to Server failed.");
 		}

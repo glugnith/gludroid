@@ -495,6 +495,25 @@
                         android:text="Abhinav" />
                 </LinearLayout>
                 
+                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/abhinavk" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Abhinav" />
+                </LinearLayout>
+                
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -607,6 +626,25 @@
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:text="Ashit" />
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/harshit" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Harshit" />
                 </LinearLayout>
                 
                 <LinearLayout
