@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.glug.test">
+    package="com.nith.glug.test">
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="25" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.glug"
+                     android:targetPackage="com.nith.glug"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.glug"/>
+                     android:label="Tests for com.nith.glug"/>
 </manifest>

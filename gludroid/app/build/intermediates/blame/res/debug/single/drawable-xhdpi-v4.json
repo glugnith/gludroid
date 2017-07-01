@@ -40,12 +40,12 @@
         "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/ubuntu.jpg"
     },
     {
-        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slackware.jpg",
-        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/slackware.jpg"
-    },
-    {
         "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/preetika.jpg",
         "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/preetika.jpg"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slackware.jpg",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/slackware.jpg"
     },
     {
         "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/kalilinux.jpg",
@@ -100,12 +100,12 @@
         "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/chrome.jpg"
     },
     {
-        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sfd.jpg",
-        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/sfd.jpg"
-    },
-    {
         "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/kunal.jpg",
         "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/kunal.jpg"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/sfd.jpg",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/sfd.jpg"
     },
     {
         "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/amankumar.jpg",
@@ -260,12 +260,12 @@
         "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/abhinavk.jpg"
     },
     {
-        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/varun.jpg",
-        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/varun.jpg"
-    },
-    {
         "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/neha.jpg",
         "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/neha.jpg"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/varun.jpg",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-xhdpi/varun.jpg"
     },
     {
         "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/kubuntu.jpg",

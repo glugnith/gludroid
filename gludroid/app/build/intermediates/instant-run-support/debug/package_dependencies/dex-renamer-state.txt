@@ -1,0 +1,25 @@
+#Sat Jul 01 08:52:57 IST 2017
+renamed.7=classes7.dex
+renamed.6=classes2.dex
+renamed.5=classes8.dex
+renamed.4=classes3.dex
+renamed.3=classes4.dex
+renamed.2=classes.dex
+renamed.1=classes5.dex
+renamed.0=classes6.dex
+base.7=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46cb62acff226069d9c9be7e2843fc2a919043e8
+base.6=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_939fac4530bcf70c5e97fb15a55daca154089783
+base.5=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_f4b608107e04026d68fa9b809b7da822488b05ea
+base.4=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ab6ea92195af3d7f33db080ed604ded915290703
+base.3=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf6aa1d05c23d4378c36cdae203b6d0fa48bd397
+base.2=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38c13a870a1286e06730f9c556bcde5817284e79
+base.1=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_938ec02f6125496ed5277b3bc121512f6c082917
+base.0=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94d18f5ebca04ff0c6e5919d60e9821f3e7018bb
+file.7=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_46cb62acff226069d9c9be7e2843fc2a919043e8/classes.dex
+file.6=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_939fac4530bcf70c5e97fb15a55daca154089783/classes.dex
+file.5=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_f4b608107e04026d68fa9b809b7da822488b05ea/classes.dex
+file.4=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ab6ea92195af3d7f33db080ed604ded915290703/classes.dex
+file.3=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf6aa1d05c23d4378c36cdae203b6d0fa48bd397/classes.dex
+file.2=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38c13a870a1286e06730f9c556bcde5817284e79/classes.dex
+file.1=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_938ec02f6125496ed5277b3bc121512f6c082917/classes.dex
+file.0=/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94d18f5ebca04ff0c6e5919d60e9821f3e7018bb/classes.dex
