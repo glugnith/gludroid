@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bbb3e76cfd4f3432ab566afb3eec1a146980f7c7">
+        <dex dex="/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6201e2d632f34f94209edaf99f3ab0811d6f7603/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2253485c73ced9e680cd2ba4bf683449c5870ce2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/shasha/Forked_Repo/gludroid/gludroid/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_f4b608107e04026d68fa9b809b7da822488b05ea/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/info_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/info_layout.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/sfd_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/sfd_layout.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/list_view.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/list_view.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/develop_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/develop_layout.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/about_sfd_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/about_sfd_layout.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/member_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/member_layout.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/event_item_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/event_item_layout.xml"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/layout/glug_layout.xml",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/layout/glug_layout.xml"
+    }
+]

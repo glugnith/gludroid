@@ -1,0 +1,221 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* LICENSE
+* README.md
+* gludroid/
+* gludroid/.idea/
+* gludroid/.idea/compiler.xml
+* gludroid/.idea/copyright/
+* gludroid/.idea/copyright/profiles_settings.xml
+* gludroid/.idea/misc.xml
+* gludroid/.idea/workspace.xml
+* gludroid/app/
+* gludroid/app/build.gradle
+* gludroid/app/libs/
+* gludroid/app/libs/volley.jar
+* gludroid/app/src/
+* gludroid/app/src/main/
+* gludroid/app/src/main/AndroidManifest.xml
+* gludroid/app/src/main/java/
+* gludroid/app/src/main/java/com/
+* gludroid/app/src/main/java/com/example/
+* gludroid/app/src/main/java/com/example/glug/
+* gludroid/app/src/main/java/com/example/glug/MainActivity.java
+* gludroid/app/src/main/java/com/example/glug/about_activity.java
+* gludroid/app/src/main/java/com/example/glug/about_sfd.java
+* gludroid/app/src/main/java/com/example/glug/company_activity.java
+* gludroid/app/src/main/java/com/example/glug/custom_list.java
+* gludroid/app/src/main/java/com/example/glug/develop_activity.java
+* gludroid/app/src/main/java/com/example/glug/events_activity.java
+* gludroid/app/src/main/java/com/example/glug/foss_activity.java
+* gludroid/app/src/main/java/com/example/glug/glug_activity.java
+* gludroid/app/src/main/java/com/example/glug/member_activity.java
+* gludroid/app/src/main/java/com/example/glug/os_activity.java
+* gludroid/app/src/main/java/com/example/glug/sfd_activity.java
+* gludroid/app/src/main/java/com/example/glug/show_info.java
+* gludroid/app/src/main/res/
+* gludroid/app/src/main/res/drawable-hdpi/
+* gludroid/app/src/main/res/drawable-hdpi/gludroid.png
+* gludroid/app/src/main/res/drawable-hdpi/glug.png
+* gludroid/app/src/main/res/drawable-hdpi/ic_launcher.png
+* gludroid/app/src/main/res/drawable-ldpi/
+* gludroid/app/src/main/res/drawable-ldpi/glug.png
+* gludroid/app/src/main/res/drawable-mdpi/
+* gludroid/app/src/main/res/drawable-mdpi/gludroid.png
+* gludroid/app/src/main/res/drawable-mdpi/glug.png
+* gludroid/app/src/main/res/drawable-mdpi/ic_launcher.png
+* gludroid/app/src/main/res/drawable-xhdpi/
+* gludroid/app/src/main/res/drawable-xhdpi/aashitsingh.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/abhinav.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/abhinavbhatt.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/abhinavk.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/abhishek.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/aishwaria.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/akshatsharma.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/akshika.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/amankumar.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/amanpreet.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/anubhuti.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/arun.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/audacity.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/backtrack.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/binny.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/blender.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/cent.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/chrome.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/debian.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/deepin.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/devesh.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/divyanshu.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/docky.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/dsl.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/elementary.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/fedora.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/foss.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/fz.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/gimp.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/giriraj.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/gludroid.png
+* gludroid/app/src/main/res/drawable-xhdpi/glug.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/gnome.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/harshit.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/himanshu.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/himanshus.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/ishita.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/kalilinux.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/kubuntu.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/kunal.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/kunals.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/linuxmint.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/mayank.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/meghna.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/mozilla.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/mukulchandel.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/neha.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/nishantchaundhary.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/openoffice.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/os.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/pranav.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/preetika.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/puppy.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/rahulraturi.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/reena.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/rohanjaswal.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/sachin.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/sagar.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/sahil.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/saloni.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/sfd.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/shalvi.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/shriya.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/shubham.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/shubhamrana.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/slackware.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/sonal.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/suleman.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/thunder.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/ubuntu.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/varun.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/vetta.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/vim.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/vlc.jpg
+* gludroid/app/src/main/res/drawable-xhdpi/wine2.jpg
+* gludroid/app/src/main/res/drawable-xxhdpi/
+* gludroid/app/src/main/res/drawable-xxhdpi/gludroid.png
+* gludroid/app/src/main/res/drawable-xxhdpi/glug.png
+* gludroid/app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* gludroid/app/src/main/res/layout/
+* gludroid/app/src/main/res/layout/about_sfd_layout.xml
+* gludroid/app/src/main/res/layout/activity_main.xml
+* gludroid/app/src/main/res/layout/develop_layout.xml
+* gludroid/app/src/main/res/layout/event_item_layout.xml
+* gludroid/app/src/main/res/layout/glug_layout.xml
+* gludroid/app/src/main/res/layout/info_layout.xml
+* gludroid/app/src/main/res/layout/list_item.xml
+* gludroid/app/src/main/res/layout/list_view.xml
+* gludroid/app/src/main/res/layout/member_layout.xml
+* gludroid/app/src/main/res/layout/sfd_layout.xml
+* gludroid/app/src/main/res/menu/
+* gludroid/app/src/main/res/menu/main.xml
+* gludroid/app/src/main/res/values-sw600dp/
+* gludroid/app/src/main/res/values-sw600dp/dimens.xml
+* gludroid/app/src/main/res/values-sw720dp-land/
+* gludroid/app/src/main/res/values-sw720dp-land/dimens.xml
+* gludroid/app/src/main/res/values-v11/
+* gludroid/app/src/main/res/values-v11/styles.xml
+* gludroid/app/src/main/res/values-v14/
+* gludroid/app/src/main/res/values-v14/styles.xml
+* gludroid/app/src/main/res/values/
+* gludroid/app/src/main/res/values/dimens.xml
+* gludroid/app/src/main/res/values/strings.xml
+* gludroid/app/src/main/res/values/styles.xml
+* gludroid/app/src/main/resources/
+* gludroid/app/src/main/resources/.idea/
+* gludroid/app/src/main/resources/.idea/compiler.xml
+* gludroid/app/src/main/resources/.idea/copyright/
+* gludroid/app/src/main/resources/.idea/copyright/profiles_settings.xml
+* gludroid/app/src/main/resources/.idea/misc.xml
+* gludroid/app/src/main/resources/.idea/modules.xml
+* gludroid/app/src/main/resources/.idea/workspace.xml
+* gludroid/app/src/main/resources/gludroid.iml
+* gludroid/build.gradle
+* gludroid/gradle/
+* gludroid/gradle/wrapper/
+* gludroid/gradle/wrapper/gradle-wrapper.jar
+* gludroid/gradle/wrapper/gradle-wrapper.properties
+* gludroid/gradlew
+* gludroid/gradlew.bat
+* gludroid/local.properties
+* gludroid/settings.gradle
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/volley.jar => app/libs/volley.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.idea/compiler.xml => app/src/main/resources/.idea/compiler.xml
+* src/.idea/copyright/profiles_settings.xml => app/src/main/resources/.idea/copyright/profiles_settings.xml
+* src/.idea/misc.xml => app/src/main/resources/.idea/misc.xml
+* src/.idea/modules.xml => app/src/main/resources/.idea/modules.xml
+* src/.idea/workspace.xml => app/src/main/resources/.idea/workspace.xml
+* src/gludroid.iml => app/src/main/resources/gludroid.iml
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:background="#ffffff"
+                android:src="@drawable/os" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="OPERATING SYSTEMS"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0000ff"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:background="#ffffff"
+                android:src="@drawable/foss" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="FREE AND OPEN SOURCE SOFTWARES"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00ff00"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:background="#ffffff"
+                android:src="@drawable/sfd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="SOFTWARE FREEDOM DAY"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:background="#ffffff"
+                android:src="@drawable/glug" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="GNU LINUX USER GROUP"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#f00000"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

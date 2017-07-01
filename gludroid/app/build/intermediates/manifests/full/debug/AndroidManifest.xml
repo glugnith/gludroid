@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nith.glug"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/glug"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nith.glug.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nith.glug.os_activity"
+            android:label="OS" />
+        <activity
+            android:name="com.nith.glug.show_info"
+            android:label="Info" />
+        <activity
+            android:name="com.nith.glug.foss_activity"
+            android:label="FOSS" />
+        <activity android:name="com.nith.glug.sfd_activity" />
+        <activity android:name="com.nith.glug.about_sfd" />
+        <activity android:name="com.nith.glug.company_activity" />
+        <activity android:name="com.nith.glug.develop_activity" />
+        <activity android:name="com.nith.glug.member_activity" />
+        <activity android:name="com.nith.glug.glug_activity" />
+        <activity android:name="com.nith.glug.events_activity" />
+    </application>
+
+</manifest>

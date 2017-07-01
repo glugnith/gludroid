@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-hdpi/glug.png",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-hdpi/glug.png"
+    },
+    {
+        "merged": "/home/shasha/Forked_Repo/gludroid/gludroid/app/build/intermediates/res/merged/debug/drawable-hdpi/gludroid.png",
+        "source": "/home/shasha/Forked_Repo/gludroid/gludroid/app/src/main/res/drawable-hdpi/gludroid.png"
+    }
+]
